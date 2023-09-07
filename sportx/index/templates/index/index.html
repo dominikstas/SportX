@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Do przerzucenia do pliku css-->
+    <style>
+    .button {
+        font-family: 'Saira', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        background-color: gray;
+        margin-top: 100px;
+        font-size: 38px;
+        line-height: 80px;
+        padding: 0 40px;
+        border: 4px solid black;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .button:hover {
+        background-color: #fff;
+        color: #111
+    }
+
+    .button:after{
+        text-decoration: none;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -15,7 +42,10 @@
             <p>Witaj na naszej stronie poświęconej zapisywaniu wyników sportowych! Tutaj możesz śledzić nasze osiągnięcia sportowe oraz nieudostępniać swoje wyniki i sukcesy&#40;nah, tylko my&#41;. Niezależnie od tego, czy jesteś zawodowym sportowcem, amatorskim entuzjastą czy po prostu chcesz zapisywać swoje wyniki treningów, nasza strona nie pomoże ci w tym zadaniu.</p>
         </section>
         <!-- Tutaj możesz dodać więcej sekcji i funkcji, związanych z "kalendarzem sportowym" czy jakkolwiek to nazwiemy -->
-        <button id="login-button">Zaloguj się</button>
+        
+        <div class="button">
+        <a href=".../.../login/login.html">Logowanie</a>
+    </div>
     </main>
 </body>
 </html>
