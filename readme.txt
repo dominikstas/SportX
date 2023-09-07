@@ -19,4 +19,5 @@ Starting development server at http://127.0.1.2:3033/
 Quit the server with CTRL-BREAK."
 
 -wchodzisz w ten link co wyskoczy czyli np http://127.0.1.2:3033/
--jak chcesz wylaczyc serwer to klikasz ctrl+C, ale wiekszosc zmian ktore wprowadzisz w plik powinna sie sama odswiezyc
+-jak chcesz wylaczyc serwer to klikasz ctrl+C (w sensie w terminalu pythona, wtedy wywolujesz blad keyboardInterupt 
+i on zabija dzialanie programu), ale wiekszosc zmian ktore wprowadzisz w plik powinna sie sama odswiezyc
