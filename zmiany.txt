@@ -1,5 +1,6 @@
 08.09.2023
 -Dodano folder static (na pliki css), skonfigurowano index styles.css
 -Zmiana języka i czasu strony
--skonfigurowano odnośnik do strony logowania
--utworzono stronę i formularz rejestracji
+-Skonfigurowano odnośnik do strony logowania
+-Utworzono stronę i formularz rejestracji
+-Dodano foldery static do login i regist
