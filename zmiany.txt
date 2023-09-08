@@ -4,3 +4,7 @@
 -Skonfigurowano odnośnik do strony logowania
 -Utworzono stronę i formularz rejestracji
 -Dodano foldery static do login i regist
+-utworzono stronę panel i tymczasowy przycisk na stronie login
+
+pliki html są w >nazwa folderu>templates>nazwa strony
+pliki css są w >nazwa floderu>static>nazwa strony

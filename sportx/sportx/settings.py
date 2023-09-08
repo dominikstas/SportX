@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'index',
     'login',
     'regist',
+    'panel',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
