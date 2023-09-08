@@ -32,8 +32,16 @@ body {
     height: 300vh;
 }
 
-#header {
+#mainheader {
     padding: 30px;
     text-align: center;
     font-size: 50px;
+}
+
+.zwyklytekst {
+    font-size: 20px;
+}
+
+.naglowki {
+    font-size: 28px;
 }
