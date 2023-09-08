@@ -24,6 +24,8 @@
 }
 
 body {
-    background-color: green;
+    background-image: url("https://images.pexels.com/photos/4753987/pexels-photo-4753987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300vh;
 }
