@@ -2,3 +2,4 @@
 -Dodano folder static, skonfigurowano index styles.css
 -Zmiana języka i czasu strony
 -skonfigurowano odnośnik do strony logowania
+-utworzono formularz rejestracji
