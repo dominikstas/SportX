@@ -1,3 +1,6 @@
+10.09.2023
+-Utworzenie folderu static/images
+
 08.09.2023
 -Dodano folder static (na pliki css), skonfigurowano index styles.css
 -Zmiana języka i czasu strony

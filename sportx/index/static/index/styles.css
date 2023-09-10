@@ -23,11 +23,9 @@
 }
 
 body {
-    background-image: url("https://images.wallpaperscraft.com/image/single/gym_dumbbells_inventory_219519_3840x2400.jpg");
-    background-repeat: no-repeat;
+    background: url('images/background-gym.jpg'), no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(255,255,255,0.2);
     background-blend-mode: lighten;
     height: 300vh;
 }
