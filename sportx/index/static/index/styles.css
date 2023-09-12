@@ -23,10 +23,7 @@
 }
 
 body {
-    background: url('images/background-gym.jpg'), no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: lighten;
+    background: url('images/background-gym.jpg'), no-repeat, cover, fixed, lighten;
     height: 1vh;
 }
 
