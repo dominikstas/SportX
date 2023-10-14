@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
+import secrets
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.secret_key = secrets.token_hex(16)
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 
@@ -33,11 +35,14 @@ def login():
         user = User.query.filter_by(username=username).first()
         if user and bcrypt.check_password_hash(user.password, password):
             flash('Login successful!', 'success')
-            return redirect(url_for('home'))
+            return render_template('home.html')
         else:
             flash('Login unsuccessful. Please check your username and password.', 'danger')
     return render_template('login.html')
 
+
+
+
+
 if __name__ == '__main__':
-    app.secret_key = 'super_secret_key'
     app.run(debug=True)
