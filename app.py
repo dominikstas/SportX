@@ -35,7 +35,6 @@ def login():
         user = User.query.filter_by(username=username).first()
         if user and bcrypt.check_password_hash(user.password, password):
             session['user_id'] = user.id  # Zapisuje ID użytkownika w sesji
-            flash('Login successful!', 'success')
             return redirect(url_for('dashboard'))
         else:
             flash('Login unsuccessful. Please check your username and password.', 'danger')
