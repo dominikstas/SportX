@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/style.css') }}">
 </head>
 <body>
     <h1>Welcome, {{ username }}!</h1>
+    <h2>Your Trainings</h2>
+    <ul>
+        {% for training in trainings %}
+            <li>{{ training.name }} - {{ training.date.strftime('%Y-%m-%d %H:%M:%S') }}</li>
+        {% endfor %}
+    </ul>
+
+    <form method="POST" action="{{ url_for('dashboard') }}">    
+        {{ form.csrf_token }}  
+        {{ form.name.label }} {{ form.name(size=32) }} {{ form.submit }}
+    </form>
+
     <a href="{{ url_for('logout') }}">Logout</a>
 </body>
 </html>
